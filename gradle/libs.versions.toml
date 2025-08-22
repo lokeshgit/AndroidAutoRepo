@@ -11,6 +11,8 @@ activity = "1.8.0"
 constraintlayout = "2.2.1"
 legacySupportV4 = "1.0.0"
 legacySupportV13 = "1.0.0"
+media3CommonKtx = "1.8.0"
+mediaExoPlayer = "2.19.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -23,7 +25,7 @@ androidx-activity = { group = "androidx.activity", name = "activity", version.re
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 androidx-legacy-support-v4 = { group = "androidx.legacy", name = "legacy-support-v4", version.ref = "legacySupportV4" }
 androidx-legacy-support-v13 = { group = "androidx.legacy", name = "legacy-support-v13", version.ref = "legacySupportV13" }
-
+androidx-media3-common-ktx = { group = "androidx.media3", name = "media3-common-ktx", version.ref = "media3CommonKtx" }
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
